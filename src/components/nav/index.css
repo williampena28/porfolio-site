@@ -1,0 +1,11 @@
+.nav-bar
+{
+    background-color: #5B7C99;
+}
+.nav-items
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+}
