@@ -15,6 +15,6 @@
 p:hover
 {
     cursor: pointer;
-    color: #FDE74C;
-    font-style: underline;
+    /* color: #FDE74C;
+    font-style: underline; */
 }
