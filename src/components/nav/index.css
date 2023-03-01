@@ -1,6 +1,9 @@
 .nav-bar
 {
     background-color: #5B7C99;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
 }
 .nav-items
 {
@@ -8,4 +11,10 @@
     flex-direction: row;
     justify-content: space-around;
     font-size: 30px;
+}
+p:hover
+{
+    cursor: pointer;
+    color: #FDE74C;
+    font-style: underline;
 }

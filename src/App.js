@@ -1,6 +1,5 @@
-import { BrowserRouter as Router } from 'react-router-dom'
-import MainPage from './pages/main'
 import Nav from './components/nav'
+import { Outlet } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Nav/>
-      <MainPage/>
+      <Outlet/>
     </div>
   );
 }
