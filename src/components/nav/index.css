@@ -15,11 +15,11 @@
 }
 p:hover
 {
-    cursor: pointer;
-    /* color: #FDE74C;
+    /* cursor: pointer;
+    color: #FDE74C;
     font-style: underline; */
 }
-.names
+.name
 {
     width: 300px;
 }
